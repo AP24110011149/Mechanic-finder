@@ -1,0 +1,12 @@
+node_modules/
+
+# Environment variables — never commit secrets
+.env
+.env.local
+.env.*.local
+# Keep the example template tracked
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
