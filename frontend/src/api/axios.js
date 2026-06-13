@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000',
+  baseURL: 'https://mechanic-finder-backend-w90e.onrender.com',
 });
 
 // Automatically add the token to every request
